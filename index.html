@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- icons -->
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h3>Elegir tema</h3>
+        <form id="theme-options">
+          <div>
+            <input checked type="radio" id="auto" name="theme" value="auto">
+            <label for="auto">Principal</label>
+          </div>
+          <div>
+            <input type="radio" id="dark" name="theme" value="dark">
+            <label for="dark">Oscuro</label>
+          </div>
+          <div>
+            <input type="radio" id="light" name="theme" value="light">
+            <label for="light">Claro</label>
+          </div>
+        </form>
+      </header> 
+<div class="container">
+    <div class="card">
+        <div class="card__border">
+            <img src="img/perfil3.png" alt="card image" class="card__image">
+        </div>
+        <h3 class="card__name">Javier Huanca Tapia</h3>
+        <span class="card__profession">UX Designer</span>
+        <div class="card__social animation" id="card-social">
+            <div class="card__social-control">
+                <!--toggle button-->
+                <div class="card__social-toggle" id="card-toggle">
+                    <i class='bx bxs-chevrons-down' ></i>
+                </div>
+                <span class="card__social-text">Mis redes sociales</span>
+                <!--card social-->
+                <ul class="card__social-list">
+                    <a href="https://www.linkedin.com/in/javier-huanca-tapia/" target="_blank" class="card__social-link">
+                        <i class='bx bxl-linkedin' ></i>
+                    </a>
+                    <a href="https://github.com/JavierHTapia" target="_blank" class="card__social-link">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
